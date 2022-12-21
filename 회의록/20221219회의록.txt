@@ -1,0 +1,40 @@
+2022-12-19
+
+주제 선정 회의
+
+김동현 
+https://dacon.io/competitions/official/236037/overview/description
+- 데이콘 경진데회 데이터 문장유형 분류 ai경진대회
+
+
+
+이하경
+https://www.kaggle.com/c/fake-news/data
+1. 가짜뉴스 탐지하는 모델이랑 
+https://www.kaggle.com/datasets/thedevastator/uncovering-geophysical-insights-analyzing-usgs-e
+2. 과거 지진 위치, 지형, 빈도 분석해서 지진 예측하는 모델 두 개 생각해봤습니다
+
+
+
+이효민
+https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset?select=KR_youtube_trending_data.csv
+유튜브 인기동영상 순위를 찾아봤는데 20년부터 22.12.17까지 자료
+머신러닝 알고리즘을 학습시켜 유튜브 댓글을 생성하는 방식
+
+
+
+권나은
+https://dacon.io/competitions/official/235865/overview/description
+직업 추천 알고리즘
+
+
+
+김선우
+https://www.kaggle.com/search?q=netflix
+저는 케글에서 넷플릭스 카테고리별 제작횟수의 차이점과 인기의 변화에 따라 제작횟수 증감, 나라에 따라 어떤 카테고리가 제일 많이 제작되었는지 생각해봤습니다
+
+
+
+윤대원 
+https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
+주택가격 예측 모델
