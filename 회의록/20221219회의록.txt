@@ -5,27 +5,30 @@
 김동현 
 https://dacon.io/competitions/official/236037/overview/description
 - 데이콘 경진데회 데이터 문장유형 분류 ai경진대회
-
+-> 컬럼수 5개 올라온코드 11개
 
 
 이하경
 https://www.kaggle.com/c/fake-news/data
 1. 가짜뉴스 탐지하는 모델이랑 
-https://www.kaggle.com/datasets/thedevastator/uncovering-geophysical-insights-analyzing-usgs-e
-2. 과거 지진 위치, 지형, 빈도 분석해서 지진 예측하는 모델 두 개 생각해봤습니다
+컬럼 11(string6, int 2) - 전처리가 좀 오래걸릴듯
 
+https://www.kaggle.com/datasets/thedevastator/uncovering-geophysical-insights-analyzing-usgs-e
+2. 과거 지진 위치, 지형, 빈도 분석해서 지진 예측하는 모델
+-> 컬럼수 22 184개, 우리나라 적용도 가능할듯, but 코드 올라온거 3개
 
 
 이효민
 https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset?select=KR_youtube_trending_data.csv
 유튜브 인기동영상 순위를 찾아봤는데 20년부터 22.12.17까지 자료
 머신러닝 알고리즘을 학습시켜 유튜브 댓글을 생성하는 방식
-
+-> 칼럼 너무 많음, 데이터수도 많음 -> 컬럼 설명 필요, 코드 40개
 
 
 권나은
 https://dacon.io/competitions/official/235865/overview/description
 직업 추천 알고리즘
+-> 1등 코드 (github) 있음
 
 
 
@@ -38,3 +41,4 @@ https://www.kaggle.com/search?q=netflix
 윤대원 
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 주택가격 예측 모델
+-> 분석방법별 코드 올라와있음
