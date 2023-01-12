@@ -1,0 +1,43 @@
+---
+title: "상관계수 확인"
+author: "김동현"
+date: '2023 1 12 '
+output: html_document
+---
+
+
+# 1. 데이터 불러오기
+```{r}
+pre <- read.csv("C:/hyun/최종팀플/data/pre_train.csv", head = TRUE)
+pre <- pre[, -c(1)]
+str(pre)
+```
+
+
+
+
+
+
+# 2. 상관분석
+
+
+- "총세대수", "전용면적", "전용면적별세대수", "빈집", "노선수", "버스", "주차면수", "등록차량수" 의 상관계수 확인
+
+
+```{r}
+# 시각화1
+# install.packages('PerformanceAnalytics')
+library(PerformanceAnalytics)
+chart.Correlation(pre[ ,c(2,5:7, 9:12) ])
+
+```
+- 총 세대 수와 주차면 수는 중가 정도의 양의 상관관계를 보인다.
+
+
+```{r}
+# 시각화2
+# install.packages('corrgram')
+library(corrgram)
+corrgram(pre[ ,c(2,5:7, 9:12) ],lower.panel = panel.conf)
+
+```
